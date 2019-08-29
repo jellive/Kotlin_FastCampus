@@ -3,6 +3,7 @@ package kr.jell.fastcampus.kotlin.mystudy
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import kr.jell.fastcampus.kotlin.mystudy.step1.FirstTest
 
 class MainActivity : AppCompatActivity() {
 
