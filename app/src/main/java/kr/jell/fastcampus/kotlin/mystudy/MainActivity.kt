@@ -5,6 +5,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import kr.jell.fastcampus.kotlin.mystudy.step1.FirstTest
 import kr.jell.fastcampus.kotlin.mystudy.step1.NumberTest
+import kr.jell.fastcampus.kotlin.mystudy.step1.StringTest
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         // 우리가 만든 예제들을 이곳에서 실행시킨다.
 //        doTest(FirstTest(::WriteLn))
-        doTest(NumberTest(::WriteLn))
+//        doTest(NumberTest(::WriteLn))
+        doTest(StringTest(::WriteLn))
     }
 
     private fun doTest(o: TestClass) {
