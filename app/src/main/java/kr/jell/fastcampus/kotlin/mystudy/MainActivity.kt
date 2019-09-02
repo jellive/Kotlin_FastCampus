@@ -3,9 +3,7 @@ package kr.jell.fastcampus.kotlin.mystudy
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-import kr.jell.fastcampus.kotlin.mystudy.step1.FirstTest
-import kr.jell.fastcampus.kotlin.mystudy.step1.NumberTest
-import kr.jell.fastcampus.kotlin.mystudy.step1.StringTest
+import kr.jell.fastcampus.kotlin.mystudy.step1.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,7 +14,10 @@ class MainActivity : AppCompatActivity() {
         // 우리가 만든 예제들을 이곳에서 실행시킨다.
 //        doTest(FirstTest(::WriteLn))
 //        doTest(NumberTest(::WriteLn))
-        doTest(StringTest(::WriteLn))
+//        doTest(StringTest(::WriteLn))
+//        doTest(AnyTest(::WriteLn))
+//        doTest(FunctionTest(::WriteLn))
+        doTest(ConditionTest(::WriteLn))
     }
 
     private fun doTest(o: TestClass) {
